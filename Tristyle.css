@@ -1,0 +1,120 @@
+body{
+  margin: 0;
+
+
+  }#main {
+  background-color: #EEE;
+
+  background:url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+}
+
+#img-div{
+position: relative;
+text-align: center;
+}
+#title{
+  position: absolute;
+  font-size: 50px;
+  font-family: Helvetica;
+  color:white;
+  bottom: 50%;
+  left:20%;
+}
+
+#img-caption{
+  position: absolute;
+  color: white;
+  bottom:43%;
+  left:20%;
+  font-size: 18px;
+}
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+#brief{
+  line-height: 1.5;
+  padding: 10px;
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'Roboto Slab', serif;
+  font-size: 15px;
+
+}
+
+
+#tribute-info
+{  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 1.5;
+}
+
+
+ul {
+  width:500px;
+  margin: 0 auto 0 auto;
+  text-align: left;
+  font-size:17px;
+}
+
+
+li{
+  margin:16px 0;
+
+}
+
+footer{
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  font-style:italic;
+  font-size: 18px;
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape), (orientation:portrait)  {
+
+body{
+  font-size: 16px;
+}
+#title{
+  font-size: 60px;
+  bottom:48%;
+  left:7%;
+  margin-bottom: 15px;
+}
+
+h2
+{
+  font-size: 16px;
+}
+#img-caption{
+  text-align: left;
+  padding: 10px;
+  width:  45%;
+  bottom: 35%;
+  left:7%;
+  font-size: 20px;
+}
+
+#brief{
+  width:80%;
+  font-size: 11.5px;
+}
+
+ul {
+  font-family: 'Lora', serif;
+  font-size: 21px;
+
+}
+
+
+footer{
+  font-size: 12px;
+}
+}
